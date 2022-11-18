@@ -21,4 +21,10 @@ namespace double_link_list
         public Node prev;
     }
 
+    class DoubleLinkedList
+    {
+        Node START;
+        //
+
+    }
 }
