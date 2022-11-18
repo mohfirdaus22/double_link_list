@@ -139,7 +139,30 @@ namespace double_link_list
                     Console.Write(currentNode.noMhs + currentNode.name + "\n");
             }
         }
-        
+
+        public void descending()
+        {
+            if (listEmpty())
+                Console.WriteLine("\n List is Empty ");
+            else
+            {
+                Console.WriteLine("\n Record in the descending order of" + "roll number are :\n");
+                Node currentNode;
+                //membawa current node epaling belakang 
+                currentNode = START;
+                while(currentNode != null)
+                {
+                    currentNode = currentNode.next;
+                }
+
+                //membaca data dari last node ke first node
+                while (currentNode != null)
+                {
+                    Console.Write(currentNode.noMhs + " " + currentNode.name + "\n");
+                    currentNode = currentNode.prev;
+                }
+            }
+        }
 
 
     }
