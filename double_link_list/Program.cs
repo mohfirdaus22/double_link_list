@@ -229,9 +229,13 @@ namespace double_link_list
                                 int num = Convert.ToInt32(Console.ReadLine());
                                 if (obj.Search(num, ref prev, ref curr) == false)
                                     Console.WriteLine("\nRecord not found");
-                               
+                                {
+                                    Console.WriteLine("\nRecord found");
+                                    Console.WriteLine("\nRoll number: " + curr.noMhs);
+                                    Console.WriteLine("\nName: " + curr.name);
+                                }
                             }
-                          
+                            break;
                     }
                 }
             }
