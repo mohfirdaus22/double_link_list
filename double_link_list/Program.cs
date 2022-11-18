@@ -236,6 +236,13 @@ namespace double_link_list
                                 }
                             }
                             break;
+                        case '6':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("invalid option");
+                            }
+                            break;
                     }
                 }
             }
