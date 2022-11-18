@@ -119,5 +119,14 @@ namespace double_link_list
             return true;
         }
 
+        public bool listEmpty()
+        {
+            if (START == null)
+                return true;
+            else
+                return false;
+        }
+
+
     }
 }
