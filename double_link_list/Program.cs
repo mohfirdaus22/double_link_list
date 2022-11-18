@@ -25,6 +25,18 @@ namespace double_link_list
     {
         Node START;
         //
+        public void addNode()
+        {
+            int nim;
+            string nm;
+            Console.WriteLine("\nEnter The Role Number of student:");
+            nim = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n Enter the nafe of student:");
+            nm=Console.ReadLine();
+            Node newNode = new Node();
+            newNode.noMhs = nim;
+            newNode.name = nm;
 
+        }
     }
 }
