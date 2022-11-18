@@ -163,7 +163,9 @@ namespace double_link_list
                 }
             }
         }
-
+    }
+    class Program
+    {
 
     }
 }
